@@ -87,7 +87,7 @@ class HRStepperView: UIView {
     
     fileprivate func createView() {
         
-        let nib = UINib(nibName: XIBViewID.HRStepperView, bundle: nil)
+        let nib = UINib(nibName: "HRStepperView", bundle: nil)
         contentView = nib.instantiate(withOwner: self, options: nil).first as! UIView
         contentView.frame = bounds
         addSubview(contentView)
