@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "一个简单的StepperView"
+  #s.description  = "一个简单的StepperView"
 
-  s.homepage     = "http://github.com/HenryGaoGH/HRStepperView"
+  s.homepage     = "https://github.com/HenryGaoGH/HRStepperView"
   #s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/HenryGaoGH/HRStepperView.git", :tag => "0.9.5" }
+  s.source       = { :git => "https://github.com/HenryGaoGH/HRStepperView.git", :tag => "0.9.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
